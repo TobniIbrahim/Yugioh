@@ -1,0 +1,15 @@
+const fight = () => {
+  if (yugiohIndexAdv1 !== null && yugiohIndexAdv2 !== null) {
+    if (yugiohIndexAdv1 === yugiohIndexAdv2) {
+      Gagnant('Egalité');
+    } else if (yugiohIndexAdv1 === 2 && yugiohIndexAdv2 === 0) {  
+      Gagnant('Adv1');
+    } else if (yugiohIndexAdv1 === 0 && yugiohIndexAdv2 === 1) {
+      Gagnant('Adv1');
+    } else if (yugiohIndexAdv1 === 1 && yugiohIndexAdv2 === 3) {  
+      Gagnant('Adv1');
+    } else {
+      Gagnant('Adv2');
+    }
+  }
+};
